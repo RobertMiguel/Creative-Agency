@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <style>
+        * {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: black;
+	color: #7f8db0;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	display: flex;
+	width: 950px;
+	margin: 140px auto;
+}
+.single-box {
+	width: 300px;
+	background: #fff;
+	margin-right: 20px;
+	padding: 25px;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: relative;
+}
+.single-box:last-child {
+	margin-right: 0;
+}
+.single-box .img img {
+	width: 200px;
+	margin-bottom: 10px;
+}
+.single-box .price {
+	font-weight: 600;
+	font-size: 45px;
+}
+.img {
+	position: absolute;
+	top: -25%;
+	left: 20%;
+}
+.single-box h3 {
+	margin-top: 25%;
+	margin-bottom: 15px;
+}
+.single-box p {
+	line-height: 1.9;
+}
+.single-box a {
+	background: #f57e20;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 30px;
+}
+@media(max-width:991px) {
+	.box {
+		width: 100%;
+	}
+}
+@media (max-width:767px) {
+	.box {
+		width: 100%;
+		flex-direction: column;
+	}
+	.single-box {
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 110px;
+	}
+}
+
+    </style>
+</head>
+<body>
+    <div class="nav-area">
+        <div class="nav">
+            <a href="index.html">Home</a> 
+            <a href="about.html">about</a> 
+            <a href="portfolio.html">portfolio</a> 
+        </div>
+    <div class="wrapper">
+		<div class="box">
+			<div class="single-box">
+				<h3>Front-end</h3>
+				<p>O desenvolvimento front-end da web é o desenvolvimento da interface gráfica do usuário de um site, por meio do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com aquele site. </p>
+				<div class="price">
+					<p>$120</p>
+				</div>
+				<a href="tabela.html">Add to Cart</a>
+			</div>
+			<div class="single-box">
+				<h3>Back-end</h3>
+				<p>O backend é a estrutura que possibilita a operação do sistema, enquanto o front-end é responsável pela parte visual, como apresentação, design, linguagens, cores, entre outros. Mesmo tendo papéis diferentes, essas aplicações estão ligadas intimamente para que os ambientes eletrônicos operem em sincronia.</p>
+				<div class="price">
+					<p>$180</p>
+				</div>
+				<a href="tabela.html">Add to Cart</a>
+			</div>
+			<div class="single-box">
+				<h3>Full-stack</h3>
+				<p>O desenvolvedor full stack é capaz de trabalhar com toda a pilha de desenvolvimento de um projeto. Além de conseguir atuar com o font-end e o back-end, esse profissional também pode contribuir em todas as etapas e partes de um sistema, como o servidor e o banco de dados.</p>
+				<div class="price">
+					<p>$240</p>
+				</div>
+				<a href="tabela.html">Add to Cart</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	<title>Creative Agency</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="owl-carousel" id="slider-area">
+			<div style="background-image: url(img/1.jpg)"></div>
+			<div style="background-image: url(img/2.jpg)"></div>
+			<div style="background-image: url(img/3.jpg)"></div>
+		</div>
+		<div class="nav-area">
+			<div class="nav">
+				<a href="index.html">Home</a> 
+				<a href="about.html">about</a> 
+				<a href="portfolio.html">portfolio</a> 
+			</div>
+		</div>
+		<div class="slider-text">
+			<h2>Creative <span>Agency</span></h2>
+			<p>Aqui é sobre nossos projetos e mostrar mais sobre tudo isso.</p><a href="#">learn More</a> <a class="btn" href="#">Contact Us</a>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+	<script>
+	$('#slider-area').owlCarousel({
+	   loop: true,
+	   autoplay: true,
+	   responsive: {
+	       0: {
+	           items: 1
+	       },
+	       600: {
+	           items: 1
+	       },
+	       1000: {
+	           items: 1
+	       }
+	   }
+	})       
+	</script>
+</body>
+</html>
